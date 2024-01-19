@@ -107,6 +107,7 @@ ul {
     background-color: #FFFFFF;
     color: #2E2F42;
     text-align: center;
+    text-transform: capitalize;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -118,7 +119,6 @@ ul {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
-    text-transform: capitalize;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
@@ -132,7 +132,6 @@ ul {
 }
 
 .fourth-title {
-    text-transform: capitalize;
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -141,6 +140,7 @@ ul {
 }
 
 .fourth-list-title {
+    text-transform: capitalize;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -179,20 +179,3 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-/* ------ h2 (Hidden element)------ */
-/* .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  } */
-
-  /* ----------------------------- */
