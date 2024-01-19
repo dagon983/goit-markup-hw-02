@@ -9,9 +9,9 @@ ul {
 }
 
 .logo {
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    color: #2E2F42;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
@@ -20,7 +20,7 @@ ul {
 }
 
 .logo-part {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .nav-link {
@@ -42,10 +42,13 @@ ul {
     font-weight: 500;
 }
 
+.address {
+    font-style: normal;
+}
+
 .cont-link {
     text-decoration: none;
     color: #434455;
-    font-style: normal;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
@@ -60,7 +63,7 @@ ul {
     background-color: #2E2F42;
 }
 
-h1 {
+.main-title {
     text-align: center;
     color: #FFFFFF;
     font-size: 56px;
@@ -101,6 +104,7 @@ h1 {
 }
 
 .third-title {
+    background-color: #FFFFFF;
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -114,12 +118,12 @@ h1 {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
+    text-transform: capitalize;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
 .third-list-text {
-    color: #2E2F42;
     background-color: #FFFFFF;
     text-align: center;
     font-size: 16px;
@@ -128,6 +132,7 @@ h1 {
 }
 
 .fourth-title {
+    text-transform: capitalize;
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -156,12 +161,16 @@ h1 {
 .logo-footer {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    color: #F4F4FD;
+    color: #4D5AE5;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+}
+
+.logo-footer .logo-part {
+    color: #F4F4FD;
 }
 
 .footer-text {
@@ -171,7 +180,8 @@ h1 {
     letter-spacing: 0.02em;
 }
 
-.visually-hidden {
+/* ------ h2 (Hidden element)------ */
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -183,4 +193,6 @@ h1 {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+  } */
+
+  /* ----------------------------- */
